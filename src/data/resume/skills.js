@@ -1,22 +1,17 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
+    competency: 3,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'Node.JS',
-    competency: 5,
+    competency: 3,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'React',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Next.JS',
-    competency: 3,
     category: ['Web Development', 'Javascript'],
   },
   {
@@ -55,29 +50,9 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'Data Mining',
+    title: 'DynamoDB',
     competency: 3,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 3,
-    category: ['Web Development', 'Python'],
+    category: ['Web Development', 'Databases'],
   },
   {
     title: 'Git/Mercurial',
@@ -115,13 +90,8 @@ const skills = [
     category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
   },
   {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
     title: 'Tensorflow + Keras',
-    competency: 3,
+    competency: 2,
     category: ['ML Engineering', 'Python'],
   },
   {
@@ -136,7 +106,7 @@ const skills = [
   },
   {
     title: 'Typescript',
-    competency: 3,
+    competency: 2,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -146,52 +116,42 @@ const skills = [
   },
   {
     title: 'Python',
-    competency: 5,
+    competency: 4,
     category: ['Languages', 'Python', 'ML Engineering'],
   },
   {
     title: 'Ruby',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
     title: 'Ruby on Rails',
-    competency: 3,
+    competency: 5,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'C++',
-    competency: 1,
+    competency: 4,
     category: ['Languages'],
   },
   {
-    title: 'Julia',
-    competency: 2,
+    title: 'Go',
+    competency: 5,
     category: ['Languages'],
   },
   {
     title: 'MATLAB',
-    competency: 2,
+    competency: 4,
     category: ['Languages'],
   },
   {
-    title: 'R',
+    title: 'Java',
     competency: 2,
     category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
   },
   {
     title: 'Pandas',
-    competency: 5,
+    competency: 3,
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
@@ -201,28 +161,8 @@ const skills = [
   },
   {
     title: 'Scikit-Learn',
-    competency: 4,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Mypy',
     competency: 3,
-    category: ['Python'],
-  },
-  {
-    title: 'Pylint',
-    competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
