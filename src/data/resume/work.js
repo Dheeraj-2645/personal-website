@@ -58,7 +58,7 @@ const work = [
     highlights: [
       'Evaluated existing Deep learning solutions and implemented a versatile solution for repetition count tracking with Movenet and Posenet, applicable to various workout types.',
       'Integrated human background segmentation in live videos using OpenCV for enhanced user privacy',
-      'Developed a CNN model for workout detection, conducting analysis and testing of diverse Deep Learning architectures.'
+      'Developed a CNN model for workout detection, conducting analysis and testing of diverse Deep Learning architectures.',
     ],
   },
   {
