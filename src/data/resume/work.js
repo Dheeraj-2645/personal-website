@@ -56,8 +56,9 @@ const work = [
     to deliver personalized workout experiences. It focuses on enabling users to track their fitness goals with 
     innovative solutions like real-time motion analysis, repetition counting, and privacy-enhanced live video processing.`,
     highlights: [
-      'Enhanced a flexible repetition count tracking solution using Movenet and Posenet, suitable for over 20 different workout types, improving accuracy by 10% through advanced deep learning techniques.',
-      'Integrated human background segmentation in live videos with OpenCV , improving user privacy for more than 500 users, and built a CNN model for workout detection, analyzing and testing multiple deep learning architectures with an accuracy improvement of 5%.',
+      'Evaluated existing Deep learning solutions and implemented a versatile solution for repetition count tracking with Movenet and Posenet, applicable to various workout types.',
+      'Integrated human background segmentation in live videos using OpenCV for enhanced user privacy',
+      'Developed a CNN model for workout detection, conducting analysis and testing of diverse Deep Learning architectures.'
     ],
   },
   {
